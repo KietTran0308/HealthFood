@@ -1,0 +1,17 @@
+name: HealthFood
+main: WoolChannel3295\Main
+api: 3.0.0
+version: 1.0
+author: WoolChannel3295
+commands:
+  heal:
+    description: "The Heal Command"
+    permission: heal.command
+  food:
+    description: "The Food Command"
+    permission: food.command
+permission:
+  heal.command:
+    default: op
+  food.command:
+    default: op
